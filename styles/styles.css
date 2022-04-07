@@ -1,0 +1,26 @@
+body {
+    font-family: "roboto", serif, sans-serif;
+    color: #212121;;
+}
+
+.link-decoration {
+    text-decoration: none;
+}
+
+.logo-name1 {
+    color: #2196F3;
+}
+
+.logo-name2 {
+    color: #000000;
+}
+
+.logo-name1,
+.logo-name2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
