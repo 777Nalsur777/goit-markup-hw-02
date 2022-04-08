@@ -70,7 +70,6 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
 }
 
 .h2-hide {
@@ -135,10 +134,12 @@ address {
     color: rgba(255, 255, 255, 0.6);
 }
 
-*/----------------------Страница портфолио-------------------------------------------/
+/*------------------------------Страница портфолио-------------------------------------------*/
 
-.pointer {
+.pointer:hover {
     cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .btn-text {
@@ -147,5 +148,18 @@ address {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;    
+    letter-spacing: 0.03em;
+    color: #757575;
 }
