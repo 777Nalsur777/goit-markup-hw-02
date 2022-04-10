@@ -1,6 +1,6 @@
 body {
     font-family: "roboto", serif, sans-serif;
-    color: #212121;;
+    color: #212121;
 }
 
 :root {
@@ -102,7 +102,7 @@ text-transform: uppercase;
 
 .competences-details {
     font-size: 14px;
-    line-height: 1.71px;   
+    line-height: 1.71;   
     letter-spacing: 0.03em;
     color: var(--grey-text);
 }
@@ -154,6 +154,10 @@ footer {
     background-color: var(--background-color);
 }
 
+.out-team {
+    background-color: #F5F4FA;
+}
+
 /*------------------------------Страница портфолио-------------------------------------------*/
 
 .pointer:hover {
@@ -162,12 +166,29 @@ footer {
     color: var(--white-text);
 }
 
+.project-color {
+    color: #212121;
+}
+
+.project-tepe-color {
+    color: var(--grey-text);
+}
+
+.pointer-order:hover {
+    background-color: #188CE8;
+}
+
+.pointer-order {
+    background-color: var(--highlighted-text);
+}
+
 .btn-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: #F5F4FA;
 }
 
 .project-name {
