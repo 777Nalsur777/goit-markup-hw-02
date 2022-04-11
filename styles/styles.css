@@ -61,6 +61,10 @@ body {
     color: #212121;
 }
 
+.header-nav-style-active {
+    color: var(--highlighted-text);
+}
+
 .header-contacts-style {
     color: var(--grey-text);
 }
@@ -86,6 +90,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--white-text);
 }
 
 .h2-hide {
